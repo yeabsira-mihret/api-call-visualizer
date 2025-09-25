@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# viewer.py
 # Usage: python3 viewer.py <pid>
 import sys
 import os
@@ -17,12 +15,9 @@ with open(path, "r", errors="ignore") as f:
         line = line.strip()
         if not line:
             continue
-        # crude parse: extract first token after timestamp
         parts = line.split()
         if len(parts) >= 2:
-            # e.g., "159... open('file', 0) = 3"
             token = parts[1]
-            # normalize token to function name
             fn = token.split('(')[0]
             print(fn)
         else:
