@@ -127,6 +127,8 @@ Logs are plain text, one event per line. Example (Linux)
 1599999999.201 send(sockfd=3, len=80, preview='GET / HTTP/1.0\r\nHost: localhost\r\n\r\n') = 80
 ```
 ---
+## Screenshot
+<img width="1366" height="768" alt="Screenshot_2025-09-26_22_13_53" src="https://github.com/user-attachments/assets/af59d696-f67e-48ed-8309-36e2a4608a76" />
 
 ## Security & safe use
 
